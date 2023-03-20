@@ -2,7 +2,7 @@ import collections
 from PyPDF2 import PdfReader
 
 # Open the PDF file
-pdf_file = open('iqvia.pdf', 'rb')
+pdf_file = open('test.pdf', 'rb')
 
 # Read the PDF file with PdfReader
 pdf = PdfReader(pdf_file)
